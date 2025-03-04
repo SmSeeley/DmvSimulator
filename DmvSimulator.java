@@ -36,7 +36,7 @@ public class DmvSimulator {
 
         
         if (randNum.nextInt(100) < 99) {
-            System.out.println("You do not have the required paperwork, Please go home and never come back again, we dont want to see you");
+            System.out.println("You do not have the required paperwork, Please go home and never come back again, we dont want to see you >:)");
         }
         else {
             System.out.println("You have all of the required paperwork and are all set.");
