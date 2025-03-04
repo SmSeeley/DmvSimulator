@@ -32,7 +32,7 @@ public class DmvSimulator {
             currentNumber++;
         }
 
-        System.out.println("You do not have the required paperwork");
+        System.out.println("You do not have the required paperwork, Please go home and never come back again, we dont want to see you");
     
     }
 }
