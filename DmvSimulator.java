@@ -9,17 +9,17 @@ public class DmvSimulator {
         //create instnace of Random class
         Random randNum = new Random();
 
-        //Generate random int in range 0 to 101
-        int userNumber = randNum.nextInt(101);
+        //Generate random int in range 100 to 200
+        int userNumber = randNum.nextInt(200 - 100 + 1) + 100;
         System.out.println("You're Number is " + userNumber);
 
 
         //call out each number after the userNumber and then loop around until your number is reached
-        int currentNumber = userNumber + 1;
+        int currentNumber = 100;
 
         while (true) {
-            if (currentNumber > 100 ) {
-                currentNumber = 1;
+            if (currentNumber > 200 ) {
+                currentNumber = 100;
             }
 
             System.out.println("Current Number: " + currentNumber);
